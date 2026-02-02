@@ -44,6 +44,10 @@ This project demonstrates frontend engineering skills, clean UI/UX, backend inte
 - JWT Authentication
 - bcrypt (password hashing)
 
+##  Scalability & Production Readiness
+To scale this application for production, the frontend and backend would be deployed separately using cloud platforms (e.g., Vercel/Netlify for frontend and AWS/Render for backend). Environment variables would be managed securely using `.env` files and platform-level secrets. CORS would be configured to allow only trusted frontend domains. Database performance would be improved by adding indexes on frequently queried fields such as `userId` or task status. Caching (using Redis or in-memory caching) could be introduced to reduce database load. Additional improvements include logging, error monitoring, and basic rate limiting to ensure reliability and security under higher traffic.
+
+
 ---
 
 ##  How to Run Locally
